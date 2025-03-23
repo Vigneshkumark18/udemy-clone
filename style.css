@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    
+}
+
+.navbar__s1__title{
+    color: #A435F0;
+}
+
+.navbar__s2{
+    border: solid black 1px;
+    padding: 5px;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.categories p{
+    background-color: #A435F0 ;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.sale-image img{
+    width: 100%;
+}
+
+.recommanded{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.recommanded__container{
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.recommanded__course__card{
+    width: 290px;
+}
+
+.recommanded__course__card img{
+    width:100%;
+    height: 70%;
+}
+
+.topics{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.topics__recommanded{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.topics__recommanded p{
+    border: solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 27%;
+    padding: 10px;
+}
+
+.popular__section{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.popular__container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.popular__course__card{
+    width: 290px;
+}
+
+.popular__course__card img{
+    width: 100%;
+    height: 70%;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.footer__one{
+    display: flex;
+
+}
+
+.footer__one p{
+    margin: 20px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
