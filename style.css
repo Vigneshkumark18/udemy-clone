@@ -15,6 +15,10 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid black 1px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .section-one__title {
@@ -37,6 +41,7 @@ body {
     width: 100%;
     border: none;
     font-size: 16px;
+    background-color: transparent;
 }
 
 .section-one__s2 input:focus {
@@ -48,6 +53,25 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.mylearning {
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning-popup {
+    background-color: white;
+    padding: 7px;
+    width: 110%;
+    position: absolute;
+    top: 35px;
+    right: -2px;
+    display: none;
+}
+
+.mylearning:hover .mylearning-popup {
+    display: block;
 }
 
 /* section two */
@@ -67,8 +91,22 @@ body {
 
 /* section three */
 
+.section-three {
+    position: relative;
+}
+
 .section-three img {
     width: 100%;
+}
+
+.sale-image {
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    border: solid black 2px;
+    position: absolute;
+    top: 60px;
+    left: 90px;
 }
 
 /* section four */
