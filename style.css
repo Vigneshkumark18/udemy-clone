@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+/* section one */
+
+.section-one {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+.section-one__title {
+    color: #A435F0;
+}
+
+
+
+.section-one__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.section-one__s2 input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.section-one__s2 input:focus {
+    outline: none;
+}
+
+
+.section-one__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* section two */
+
+.section-two {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.section-two p {
+    background-color: #A435F0;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* section three */
+
+.section-three img {
+    width: 100%;
+}
+
+/* section four */
+
+.section-four {
+    padding: 10px;
+}
+
+.section-four {
+    margin-top: 10px;
+}
+
+.section-four__container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.section-four__course-card {
+    width: 300px;
+}
+
+.section-four__course-card img {
+    height: 70%;
+    width: 100%;
+}
+
+/* section five */
+
+.section-five {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section-five__topics {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.section-five p {
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 27%;
+}
+
+/* section six */
+
+.section-six {
+    padding: 10px;
+}
+
+.section-six__container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.section-six__course-card {
+    width: 300px;
+}
+
+.section-six__course-card img {
+    height: 70%;
+    width: 100%;
+}
+
+/* section seven */
+.section-seven {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.section-seven__one {
+    display: flex;
+}
+
+.section-seven__one p {
+    margin: 20px;
+}
+
+.section-seven__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
